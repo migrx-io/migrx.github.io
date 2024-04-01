@@ -45,6 +45,24 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
 
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#docs">Docs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+
         </div>
       </div>
     </nav>
@@ -92,32 +110,53 @@
       </div>
     </section>
 
-
     <section class="features" id="features">
       <div class="container">
           <div class="col-lg-8 my-auto">
             <div class="container-fluid">
+
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <i class="icon-options text-primary"></i>
-                    <h3>Simple</h3>
+                    <h3>Simple</h3>Developers can provision environments without needing to read extensive documentation. They interact with a human-like assistant and follow a Git flow motion that they are already familiar with. A streamlined and user-friendly approach to environment provisioning, reducing the barrier to entry for developers
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-cloud-upload text-primary"></i>
-                    <h3>GitOps-driven</h3>
+                    <i class="icon-speedometer text-primary"></i>
+                    <h3>Operational efficiency</h3>Every second counts and every resource matters. Automating the provisioning process means less redundant manual work (and burnout) for DevOps engineers and more capacity to take on more valuable tasks.
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <i class="icon-grid text-primary"></i>
-                    <h3>Scalable and consistent</h3>
+                    <h3>Consistent</h3>Leveraging this definition provisions environments consistently every time, eliminating the 'it works on my machine' problem. Allows to detect drift and reconcile resources to keep state always consistent.
                   </div>
                 </div>
-
             </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-cloud-upload text-primary"></i>
+                    <h3>GitOps-driven</h3>Just like application code, environments can be versioned, walked through review and approval, ensuring that every change is tracked and can be rolled back if necessary.
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-speech text-primary"></i>
+                    <h3>GptOps-driven</h3>Developers can provision environments by chatting with a smart AI assistant who already knows all about your infrastructure and can translate application requirements to final resource definitions. Even new team members can onboard environments by themselves without help from other teams.
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-size-fullscreen text-primary"></i>
+                    <h3>Scalable</h3>Scalable. Code-driven environments are highly scalable and flexible. The system is distributed by design and ready to handle multi-cluster and multi-platform environments without issues.
+                  </div>
+                </div>
+            </div>
+
           </div>
         </div>
       
@@ -190,8 +229,194 @@
 
 
 
-   <section class="api bg-primary text-center" id="api">
+    <section class="products text-center" id="products">
+      <div class="container text-center">
+        <h1 class="mb-4"><strong>Products</strong></h1>
+
+         <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="mx-2 card-body">
+                    <h3 class="card-title my-2">Open Source</h3>
+                    <p class="text-muted mb-2">
+                    Free, Open Source solution for everyone. Developed and supported by the community.
+                    </p>
+                    <a href="#" style="background-color: #257537;" class="btn btn-dark d-block mb-2 mt-3 text-capitalize">Start for free</a>
+                </div>
+                <div class="card-footer">
+                    <p class="text-uppercase fw-bold" style="font-size: 12px;">What's included</p>
+                    <ol class="list-unstyled mb-0 px-4">
+                    <p class="my-3 fw-bold text-muted text-left">
+                    </p>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>K8s Operator</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>API Gateway</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Built-in web UI</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>JWT-based authentication and authorization</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>User and group management with RBAC</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Active Directory (LDAP)</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-minus" style="color:#d13364;"> </i><small>OpenID Connect</small>
+                    </li>
+                     <li class="mb-3">
+                         <i class="icon-check" style="color:#257537;"> </i><small>General resource support (namespace, labels, annotations, resource quota, limit range, roles, role bindings, networpolicy)</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-minus" style="color:#d13364;"> </i><small>Advanced resource support (SA, secrets, configmaps, custom resources)</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Project templates</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Git Auto Sync</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>GitHub (Pull Request API)</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-minus" style="color:#d13364;"> </i><small>GitLab (Merge Request API)</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-minus" style="color:#d13364;"> </i><small>ServiceNow Integration</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-minus" style="color:#d13364;"> </i><small>ChatGPT API (GptOps)</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-minus" style="color:#d13364;"> </i><small>MS Teams/Slack Bot</small>
+                    </li>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-minus" style="color:#d13364;"> </i><small>Notifications</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-minus" style="color:#d13364;"> </i><small>Audit logging</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Multi-tenancy</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Multi-cloud/on-prem</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-minus" style="color:#d13364;"> </i><small>High availability</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Community Support</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-minus" style="color:#d13364;"> </i><small>Premium support and services</small>
+                    </li>
+                    </ol>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="mx-2 card-body">
+                    <h3 class="card-title my-2 ">Enterprise</h3>
+                    <p class="text-muted">
+                    For organizations with complex operations, scaling and governance challenges.
+                    </p>
+                    <a href="#" class="btn btn-dark d-block mb-2 mt-3 text-capitalize">Contact us</a>
+                </div>
+                <div class="card-footer">
+                    <p class="text-uppercase fw-bold" style="font-size: 12px;">What's included</p>
+
+                    <ol class="list-unstyled mb-0 px-4">
+                    <p class="my-3 fw-bold text-muted text-left">
+                    </p>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>K8s Operator</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>API Gateway</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Built-in web UI</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>JWT-based authentication and authorization</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>User and group management with RBAC</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Active Directory (LDAP)</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>OpenID Connect</small>
+                    </li>
+                     <li class="mb-3">
+                         <i class="icon-check" style="color:#257537;"> </i><small>General resource support (namespace, labels, annotations, resource quota, limit range, roles, role bindings, networpolicy)</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Advanced resource support (SA, secrets, configmaps, custom resources)</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Project templates</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Git Auto Sync</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>GitHub (Pull Request API)</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>GitLab (Merge Request API)</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>ServiceNow Integration</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>ChatGPT API (GptOps)</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>MS Teams/Slack Bot</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Notifications</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Audit logging</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Multi-tenancy</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Multi-cloud/on-prem</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>High availability</small>
+                    </li>
+                    <li class="mb-3">
+                        <i class="icon-check" style="color:#257537;"> </i><small>Premium support and services</small>
+                    </li>
+                    </ol>
+
+                </div>
+              </div>
+            </div>
+    
+         </div>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
       <div class="container">
+
         <div class="row">
           <div class="col-md-8 mx-auto">
             <h1 class="section-heading">Ready to use and contribute</h1>
@@ -200,11 +425,7 @@
             <a href="https://github.com/migrx-io"><img src="img/aws_market.png" class="img-fluid" style="height:120px;" alt=""></a>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section class="contact" id="contact">
-      <div class="container">
         <h2>Need help?</h2>
         <h3 class="section-heading">Send us an email: support@migrx.io</h3>
       </div>
